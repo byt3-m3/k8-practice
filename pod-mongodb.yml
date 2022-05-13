@@ -4,6 +4,7 @@ metadata:
   name: mongodb-dev
   labels:
     app: mongodb
+    type: db
 spec:
   containers:
     - name: mongodb-dev
